@@ -14,9 +14,6 @@ function validateEmail(email) {
 	return re.test(String(email).toLowerCase());
 }
 
-function test() {
-	window.alert('Chal Raha hai...');
-}
 
 function toggleTheme() {
 	var theme = document.getElementsByClassName('theme')[0];
