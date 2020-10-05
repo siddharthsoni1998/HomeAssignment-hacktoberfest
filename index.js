@@ -9,14 +9,6 @@ function initialize() {
 	}
 }
 
-function validateEmail(email) {
-	const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-	return re.test(String(email).toLowerCase());
-}
-
-function test() {
-	window.alert('Chal Raha hai...');
-}
 
 function toggleTheme() {
 	var theme = document.getElementsByClassName('theme')[0];
